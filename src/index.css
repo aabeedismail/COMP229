@@ -1,0 +1,175 @@
+/* index.css, Aabeed Ismail, 301457580, 2024-09-29 */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #393939;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(190, 190, 190);
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  color: rgb(190, 190, 190);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: rgb(190, 190, 190);
+  }
+  button {
+    background-color: #393939;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  font-size: 1.3em;
+  padding-left: 1em;
+  position: absolute;
+}
+label{
+  display: flex;
+  font-size: larger;
+}
+.reset{
+  font-size: large;
+  display: inline;
+  margin-left: 10px;
+  border-color: #393939;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.submit{
+  font-size: large;
+  background-color: #ffffff;
+  border-color: #393939;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+p,li{
+  font-size: 1.2em;
+}
+.myPic{
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  float: left;
+  margin-right: 20px;
+}
+input, textarea{
+  background-color: #ffffff;
+  color: #393939;
+}
+button{
+  background-color: #393939;
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-size: 1em;
+}
+.projimg{
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  float: left;
+  margin: 20px;
+}
+h2{
+  font-size: 1.9em;
+  text-align: center;
+}
+h1{
+  animation-name: title;
+  animation-duration: 2s;
+  text-shadow: 2px 2px 2px rgb(154, 154, 154);
+  margin: 0;
+}
+@keyframes title{
+  From {color:rgba(0, 0, 0, 0);}
+  To {color: #ffffff}
+}
+footer{
+  text-align: center;
+}
+.aboutMe{
+  margin: 0%
+}
+.wrapper{
+  box-shadow: 3px 3px 3px black;
+  width: 800px; 
+  margin: auto;
+}
+#serviceslist{
+  display: flex;
+  text-align: center;
+  padding-left: 2em;
+  gap: 150px;
+  font-weight: bolder;
+}
+#imgpos{
+  display: flex;
+  padding-left: 1em;
+  gap: 65px;
+}
+.webdevimg{
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.csharpimg{
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.sdlcimg{
+  border: 1.5px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+#logo{
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 1050px
+}
